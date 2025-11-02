@@ -1,10 +1,9 @@
 <?php
-// Database configuration
-$db_host = 'localhost';
-$db_user = 'root';
-$db_pass = '';
-$db_name = 'registration_db';
 
+$db_host = 'sql112.infinityfree.com';
+$db_user = 'if0_40313246';
+$db_pass = 'keerthana14578';  // The password you set when creating the hosting account
+$db_name = 'if0_40313246_registration_db';
 // Create connection
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
